@@ -199,7 +199,9 @@ header .intro-text {
 		padding-top:30px;
 	}
 }
-
+.navbar-header {
+	float: right;
+}
 .navbar-header, .navbar-collapse {
 	margin-top:10px;
 }
