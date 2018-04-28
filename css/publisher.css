@@ -320,8 +320,8 @@ section.reviews {
 }
 
 .btn.btn-green:hover {
-	background: #96db90;
-	border-color: #96db90;
+	background: #a6cf27;
+	border-color: #a6cf27;
 }
 
 .btn.btn-white {
@@ -342,6 +342,7 @@ section.reviews {
 
 .btn .price .default-price {
 	text-decoration: line-through;
+	color: #333333;
 }
 
 .btn-dropdown {
