@@ -350,6 +350,10 @@ section.reviews {
 	margin-left:10px;
 }
 
+.btn .price .default-price {
+	text-decoration: line-through;
+}
+
 .btn-dropdown {
 	border:1px solid #cccccc;
 	font-family:'Proxima';
