@@ -146,7 +146,6 @@ header .intro-book {
 	}
 	header .intro-text { 
 	position: relative;
-	top: 30px !important;
 	}
 }
 
@@ -163,7 +162,6 @@ header .intro-text {
 	}
 		header .intro-text { 
 	position: relative;
-	top: 30px !important;
 	}
 }
 
