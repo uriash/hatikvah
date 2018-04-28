@@ -639,7 +639,7 @@ footer .social a.google-plus:active {color:#dd4b39;}
 .locations .location .date {
 	color: #6a727b;
 	display: inline-block;
-	margin-right:20px;
+	margin-left:20px;
 }
 
 .locations .location .date .fa {
@@ -651,7 +651,7 @@ footer .social a.google-plus:active {color:#dd4b39;}
 .locations .location .time {
 	color: #6a727b;
 	display: inline-block;
-	margin-right:20px;
+	margin-left:20px;
 }
 
 .locations .location .time .fa {
