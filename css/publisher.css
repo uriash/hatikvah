@@ -158,7 +158,8 @@ header .intro-text {
 		width:320px;
 		position: relative;
 		margin:0 auto;
-		bottom:80px;
+		bottom:-40px;
+		left: 30px;
 	}
 		header .intro-text { 
 	position: relative;
