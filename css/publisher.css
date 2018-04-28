@@ -144,6 +144,10 @@ header .intro-book {
 		position: relative;
 		margin:0 auto;
 	}
+	header .intro-text { 
+	position: relative;
+	top: 30px !important;
+	}
 }
 
 header .intro-text { 
@@ -156,6 +160,10 @@ header .intro-text {
 		position: relative;
 		margin:0 auto;
 		bottom:80px;
+	}
+		header .intro-text { 
+	position: relative;
+	top: 30px !important;
 	}
 }
 
