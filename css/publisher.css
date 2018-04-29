@@ -354,6 +354,11 @@ section.reviews {
 	color: #333333;
 }
 
+.subscribe-form
+{
+	padding: 20px 0px;
+}
+
 .disclaimer {
 	font-size: 16px;
 }
