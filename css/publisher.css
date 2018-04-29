@@ -370,8 +370,8 @@ section.reviews {
 
 .book-preview {
 	display: inline-block;
-	max-width:400px;
-	width:80%;
+	/*max-width:400px;*/
+	width:100%;
 	position: relative;
 }
 
