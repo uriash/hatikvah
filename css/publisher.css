@@ -344,6 +344,17 @@ section.reviews {
 	color:#8fb221;
 }
 
+.btn.btn-facebook {
+	background: #3b5998;
+	border:3px solid #3b5998;
+	color:white;
+}
+
+.btn.btn-facebook:hover {
+	background: #4568b2;
+	border-color: #4568b2;
+}
+
 .btn .price {
 	font-weight: normal;
 	margin-left:10px;
