@@ -182,6 +182,10 @@ header .intro-text {
 	padding:20px 0;
 }
 
+.navbar-lp {
+margin-bottom: 0px !important;
+}
+
 .navbar .navbar-brand {
 	padding:0;
 }
