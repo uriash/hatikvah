@@ -378,7 +378,7 @@ section.reviews {
 	margin-left:10px;
 }
 
-.btn .price .default-price {
+.default-price {
 	text-decoration: line-through;
 	color: #333333;
 }
