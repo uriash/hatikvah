@@ -18,22 +18,22 @@ function validate(text1,text2) {
 
 if (text1 == text2)
  {
- window.alert("Nice, you get a 10% Discount!");
+ window.alert("מגניב! קיבלת 40% הנחה!");
  }
 if (text1 !== text2)
  {
- window.alert("Sorry, No Discount!");
+ window.alert("משהו פה לא מסתדר. בטוח שהכנסת את הקוד הנכון?");
  }
 }
 
 function CalculateOrder(form) {
 
- if (form.text1.value == "GOLD10")
+ if (form.text1.value == "sefer")
  {
- form.discount_rate.value = "10";
- form.discount_rate2.value = "10";
+ form.discount_rate.value = "40";
+ form.discount_rate2.value = "40";
  form.on3.value = "Coupon Entered";
- form.os3.value = "GOLD10";
+ form.os3.value = "sefer";
  }
 }
 //-->
@@ -142,7 +142,7 @@ Optional Gift Message:&#160;&#160;
 Enter Promo Coupon - Get 10% Off:
 &#160;&#160;&#160;
 <input type="text" name="text1">
-<input type="button" value="Check It" name="Submit" onclick=javascript&colon;validate(text1.value,"GOLD10") >
+<input type="button" value="Check It" name="Submit" onclick=javascript&colon;validate(text1.value,"sefer") >
 <!-- End Coupon Validate -->
 
 <br><br><br>
@@ -153,7 +153,7 @@ Enter Promo Coupon - Get 10% Off:
 <input type="hidden" name="cmd" value="_xclick">
 <!-- Replace "business" value with your PayPal Email Address or Account ID -->
 <input type="hidden" name="business" value="uri@hatikvah.co.il">
-<input type="hidden" name="item_name" value="Widget Cupcakes">
+<input type="hidden" name="item_name" value="Hatikvah">
 <input type="hidden" name="no_shipping" value="2">
 <input type="hidden" name="discount_rate">
 <input type="hidden" name="discount_rate2">
@@ -165,8 +165,8 @@ Enter Promo Coupon - Get 10% Off:
 <input type="hidden" name="return" value="http://www.yourwebsite.com/ThankYou.html">
 <!-- Replace value with the web page you want the customer to return to after item cancellation -->
 <input type="hidden" name="cancel_return" value="http://www.yourwebsite.com/Cancel.html">
-<input type="hidden" name="currency_code" value="USD">
-<input type="hidden" name="lc" value="US">
+<input type="hidden" name="currency_code" value="NIS">
+<input type="hidden" name="lc" value="IL">
 <input type="hidden" name="button_subtype" value="products">
 <input type="hidden" name="no_note" value="0">
 <input type="hidden" name="cn" value="Add special instructions to the seller:">
