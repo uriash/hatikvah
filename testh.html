@@ -33,7 +33,7 @@ function CalculateOrder(form) {
  form.discount_rate.value = "40";
  form.discount_rate2.value = "40";
  form.on3.value = "Coupon Entered";
- form.os3.value = "GOLD10";
+ form.os3.value = "agada";
  }
 }
 //-->
@@ -78,8 +78,7 @@ function CalculateOrder(form) {
 	<!-- End Coupon Validate -->
 
 	<br><br><br>
-	<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" onclick=CalculateOrder(this.form) name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
-	<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
 	<input type="hidden" name="add" value="1">
 	
 	
@@ -95,7 +94,8 @@ function CalculateOrder(form) {
 	<input type="hidden" name="return" value="http://www.hatikvah.co.il/success">
 	<!-- Replace value with the web page you want the customer to return to after item cancellation -->
 	<input type="hidden" name="cancel_return" value="http://www.hatikvah.co.il">
-	<input type="image" name="submit" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="Buy Now">
+	<input type="hidden" name="currency_code" value="NIS">
+	<input type="image" name="submit" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" onclick=CalculateOrder(this.form) alt="Buy Now">
   	<img alt="" border="0" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
 
 </form>
