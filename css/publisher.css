@@ -902,5 +902,6 @@ button:focus {
     max-width:100%;
     border:none;
     display:block;
-    bottom: 24px;
+    margin-bottom: 24px;
+    top: -40px;
 }
