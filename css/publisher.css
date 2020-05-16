@@ -322,7 +322,7 @@ section {
 }
 
 section.call-to-action {
-	background: #4f84ed;
+	background: #fff;
 	padding:100px 0;
 }
 
@@ -880,4 +880,19 @@ button:focus {
 	left:calc(50% - 10px);
 	color:#666;
 	font-size:24px;
+}
+
+/* live */
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
