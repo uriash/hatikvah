@@ -342,14 +342,14 @@ section.reviews {
 }
 
 .btn.btn-green {
-	background: #8fb221;
-	border:3px solid #8fb221;
+	background: #238ee6;
+	border:3px solid #238ee6;
 	color:white;
 }
 
 .btn.btn-green:hover {
-	background: #a6cf27;
-	border-color: #a6cf27;
+	background: #48a9f8;
+	border-color: #48a9f8;
 }
 
 .btn.btn-white {
