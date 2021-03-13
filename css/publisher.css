@@ -309,9 +309,10 @@ header .subheading {
 
 header p {
 	margin:20px 0;
-	font-size:20px;
+	font-size:18px;
 	color:white;
-	line-height: 34px;
+	line-height: 24px;
+	text-align: justify;
 }
 
 .lp p {
