@@ -42,7 +42,10 @@ h6 {font-size:18px;}
 .light {
 	font-weight: normal;
 }
-
+select {
+	width: 100%;
+	height: 30px;
+}
 a:hover {
 	text-decoration: none;
 }
