@@ -44,6 +44,7 @@ h6 {font-size:18px;}
 }
 select {
 	width: 100%;
+	max-width: 750px;
 	height: 30px;
 }
 a:hover {
