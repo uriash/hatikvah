@@ -469,7 +469,7 @@ section.reviews {
 
 .owl-book .item .overlay > a:hover {
 	color:white;
-	background: #8fb221;
+	background: #7cc576;
 }
 
 .owl-reviews .item {
@@ -570,7 +570,7 @@ section.reviews {
 
 .rate-amount {
 	display: inline-block;
-	font-weight: bold;
+	font-family: 'Proxima Bold';
 	font-size:18px;
 	color:#bbbbbb;
 	position: relative;
@@ -578,7 +578,7 @@ section.reviews {
 }
 
 .rate-amount span {
-	font-weight: normal;
+	font-family: 'Proxima';
 }
 
 /* Footer */
