@@ -42,7 +42,6 @@ h6 {font-size:18px;}
 	color:#484d53;
 	/* font-family: GveretLevinAlefAlefAlef-Regular; */
 	font-weight: bold;
-	line-height:56px;
 	margin-bottom:16px;
 }
 
@@ -306,8 +305,8 @@ margin-bottom: 0px !important;
 header .heading {
 	font-weight: bold;
 	color:white;
-	font-size:56px;
-	margin:10px 0;
+	font-size:66px;
+	margin:0px 0px 10px;
 }
 
 .lp .heading {
